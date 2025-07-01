@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h2,label{
+    color: white;
+}
+
+.error { 
+    color: red; 
+    font-size: 0.9em; 
+}
+
+.success { 
+    color: green; 
+    font-size: 1em; 
+    margin-top: 10px; 
+}
