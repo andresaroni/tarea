@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        form { max-width: 400px; }
+        .error { color: red; font-size: 0.9em; }
+        .success { color: green; font-size: 1em; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Formulario de Contacto</h2>
+    <form id="contactoForm">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre"><br><span class="error" id="error-nombre"></span><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="text" id="correo"><br><span class="error" id="error-correo"></span><br>
+
+        <label>Edad:</label><br>
+        <input type="number" id="edad"><br><span class="error" id="error-edad"></span><br>
+
+        <label>Comentarios:</label><br>
+        <textarea id="comentarios"></textarea><br><span class="error" id="error-comentarios"></span><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="mensaje"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
